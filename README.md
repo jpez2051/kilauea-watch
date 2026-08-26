@@ -1,6 +1,6 @@
 # Kilauea Watch
 
-An accessible educational dashboard for understanding Kilauea monitoring signals, trends, and forecast uncertainty.
+An accessible dashboard for understanding live USGS Kilauea alert information, nearby earthquakes, trends, official summit webcams, and forecast uncertainty.
 
 ## Live website
 
@@ -8,7 +8,7 @@ https://jpez2051.github.io/kilauea-watch/
 
 ## Important note
 
-The displayed readings are demonstration data. This project does not replace USGS Hawaiian Volcano Observatory updates, official alerts, closures, or evacuation guidance.
+The site fetches current alert data from the USGS Volcano Status API and nearby earthquake data from the USGS Earthquake Catalog. It does not replace Hawaiian Volcano Observatory updates, official alerts, closures, or evacuation guidance.
 
 ## Development
 
