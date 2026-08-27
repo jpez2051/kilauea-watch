@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Test monitoring data handling
-        run: node --experimental-strip-types --test tests/monitoring.test.mjs
+        run: node --experimental-strip-types --test tests/monitoring.test.mjs tests/briefing.test.mjs
       - name: Build static site
         run: pnpm build:pages
       - name: Configure Pages
